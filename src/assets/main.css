@@ -1,0 +1,22 @@
+/* include google font */
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;600&display=swap');
+
+/* *,
+html,
+body {
+  font-family: 'Reem Kufi';
+} */
+
+/* include tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 800px;
+  @apply mx-auto;
+}
+
+.quran-input {
+  @apply border border-gray-200 rounded px-4 py-2 w-full;
+}
